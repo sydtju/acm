@@ -59,6 +59,21 @@ int find(int x){
 	}
 	return x;
 }
+//缩短路径    
+int find1(int x){
+	int x_temp=x;
+	while (member[x]!=x)
+	{
+		x=member[x];
+	}
+	while (member[x_temp]!=x_temp)
+	{
+		int temp=0;
+		temp=member[x_temp];
+		member[x_temp]=x;
+		x_temp=temp;
+	}
+}
 void Union(int x,int y){
 	if (rand()%2)
 	{
