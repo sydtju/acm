@@ -73,6 +73,7 @@ int find1(int x){
 		member[x_temp]=x;
 		x_temp=temp;
 	}
+        return x;
 }
 void Union(int x,int y){
 	if (rand()%2)
