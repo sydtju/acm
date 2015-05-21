@@ -1,5 +1,5 @@
 //拓扑排序是对于有向无环图的遍历 
-
+//图的存储可以使用的是邻接表 邻接矩阵 邻接多重表  
 #include<iostream>
 #include<algorithm>
 #include<queue>
